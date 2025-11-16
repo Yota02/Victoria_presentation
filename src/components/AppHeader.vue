@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import rond from '../assets/rond.ico'
 
 const mobileMenuOpen = ref(false)
 </script>
@@ -8,7 +9,10 @@ const mobileMenuOpen = ref(false)
   <header class="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200">
     <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
       <div>
-        <router-link to="/" class="text-2xl font-bold text-gradient">VictorIA</router-link>
+        <router-link to="/" class="text-2xl font-bold text-gradient">
+          <img :src="rond" alt="Icône" class="inline h-8 w-8 mr-2" />
+          VictorIA
+        </router-link>
       </div>
       <div class="hidden md:flex space-x-6 items-center">
         <router-link to="/#features" class="text-gray-600 hover:text-victori-cyan transition duration-300">Fonctionnalités</router-link>

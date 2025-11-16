@@ -21,9 +21,13 @@ onMounted(() => {
 </script>
 
 <template>
-  <AppHeader />
-  <router-view />
-  <AppFooter />
+  <div class="app-container">
+    <AppHeader />
+    <main class="content">
+      <router-view />
+    </main>
+    <AppFooter />
+  </div>
 </template>
 
 <style scoped>
@@ -38,5 +42,14 @@ onMounted(() => {
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
 }
 </style>
