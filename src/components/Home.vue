@@ -1,11 +1,9 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import AppHeader from './components/AppHeader.vue'
-import HeroSection from './components/HeroSection.vue'
-import PrivacySection from './components/PrivacySection.vue'
-import FeaturesSection from './components/FeaturesSection.vue'
-import ModulesSection from './components/ModulesSection.vue'
-import AppFooter from './components/AppFooter.vue'
+import HeroSection from './HeroSection.vue'
+import PrivacySection from './PrivacySection.vue'
+import FeaturesSection from './FeaturesSection.vue'
+import ModulesSection from './ModulesSection.vue'
 
 onMounted(() => {
   const observer = new IntersectionObserver((entries) => {
@@ -25,9 +23,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <AppHeader />
-  <router-view />
-  <AppFooter />
+  <HeroSection />
+  <PrivacySection />
+  <FeaturesSection />
+  <ModulesSection />
 </template>
 
 <style scoped>
