@@ -8,7 +8,7 @@
         Obtenez le code source complet de VictorIA pour l'installer et la personnaliser sur votre machine. Tout est open-source et prêt à l'emploi.
       </p>
       <div class="flex justify-center space-x-4">
-        <a href="https://github.com/yota02/Victoria_presentation" target="_blank" class="bg-victori-cyan text-white font-semibold px-8 py-3 rounded-lg hover:bg-opacity-80 transition duration-300 text-lg">
+        <a href="https://github.com/votre-repo/victoria" target="_blank" class="bg-victori-cyan text-white font-semibold px-8 py-3 rounded-lg hover:bg-opacity-80 transition duration-300 text-lg">
           Télécharger sur GitHub
         </a>
         <a href="#" class="bg-white text-gray-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition duration-300 text-lg border border-gray-300">
