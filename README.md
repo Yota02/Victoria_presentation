@@ -10,7 +10,7 @@ VictorIA est une assistante IA personnelle modulaire qui fonctionne 100% en loca
 
 ## Installation
 
-1. Clonez le dépôt : `git clone https://github.com/votre-repo/victoria-presentation.git`
+1. Clonez le dépôt : `git clone https://github.com/yota02/Victoria_presentation.git`
 2. Installez les dépendances : `npm install`
 3. Lancez le serveur de développement : `npm run dev`
 
