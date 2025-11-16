@@ -1,10 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import AppHeader from './components/AppHeader.vue'
-import HeroSection from './components/HeroSection.vue'
-import PrivacySection from './components/PrivacySection.vue'
-import FeaturesSection from './components/FeaturesSection.vue'
-import ModulesSection from './components/ModulesSection.vue'
 import AppFooter from './components/AppFooter.vue'
 
 onMounted(() => {
