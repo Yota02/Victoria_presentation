@@ -12,9 +12,9 @@
           <a href="#modules" class="bg-victori-cyan text-white font-semibold px-8 py-3 rounded-lg hover:bg-opacity-80 transition duration-300 text-lg">
             Découvrir les Modules
           </a>
-          <a href="#" class="bg-white text-gray-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition duration-300 text-lg border border-gray-300">
+          <router-link to="/about" class="bg-white text-gray-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition duration-300 text-lg border border-gray-300">
             En savoir plus
-          </a>
+          </router-link>
         </div>
       </div>
       

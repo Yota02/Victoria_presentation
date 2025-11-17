@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useRoute } from 'vue-router'
 import rond from '../assets/rond.ico'
 
+const route = useRoute()
 const mobileMenuOpen = ref(false)
 
 const scrollToSection = (sectionId: string) => {
@@ -20,16 +22,22 @@ const scrollToTop = () => {
     behavior: 'smooth'
   })
 }
+
+const handleHomeClick = () => {
+  if (route.path === '/') {
+    scrollToTop()
+  }
+}
 </script>
 
 <template>
   <header class="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200">
     <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
       <div>
-        <a @click.prevent="scrollToTop" class="text-2xl font-bold text-gradient cursor-pointer">
+        <router-link to="/" @click="handleHomeClick" class="text-2xl font-bold text-gradient cursor-pointer">
           <img :src="rond" alt="Icône" class="inline h-8 w-8 mr-2" />
           VictorIA
-        </a>
+        </router-link>
       </div>
       <div class="hidden md:flex space-x-6 items-center">
         <a @click.prevent="scrollToSection('features')" class="text-gray-600 hover:text-victori-cyan transition duration-300 cursor-pointer">Fonctionnalités</a>
