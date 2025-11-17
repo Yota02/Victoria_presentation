@@ -19,7 +19,7 @@
           </svg>
           <h3 class="text-2xl font-bold mb-3">Entièrement Modulaire</h3>
           <p class="text-gray-500">
-            N'installez que ce dont vous avez besoin. VictorIA s'adapte à vous, que vous soyez développeur, écrivain ou passionné de domotique.
+            N'installez que ce dont vous avez besoin. VictorIA vous permet de choisir et de gérer les modules IA adaptés à vos projets.
           </p>
         </div>
 
@@ -29,7 +29,7 @@
           </svg>
           <h3 class="text-2xl font-bold mb-3">Performant & Réactif</h3>
           <p class="text-gray-500">
-            En s'exécutant localement, VictorIA élimine la latence du réseau. Obtenez des réponses instantanées et une assistance fluide, sans interruption.
+            En s'exécutant localement, VictorIA élimine la latence du réseau. Obtenez des réponses instantanées et une assistance fluide, sans interruption. (En fonction de votre matériel)
           </p>
         </div>
       </div>

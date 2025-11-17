@@ -3,7 +3,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div class="text-center md:text-left">
         <h1 class="text-4xl md:text-6xl font-extrabold mb-4 animate-fadeInUp opacity-0" style="animation-delay: 100ms;">
-          <span class="text-gradient">VictorIA</span> : Votre IA Personnelle.
+          <span class="text-gradient">VictorIA</span> : Votre IA Personnelle
         </h1>
         <p class="text-xl text-gray-600 mb-8 animate-fadeInUp opacity-0" style="animation-delay: 300ms;">
           Une assistante IA <strong class="text-victori-cyan">modulaire</strong> qui tourne <strong class="text-victori-cyan">100% en local</strong>. Vos données, votre contrôle.
